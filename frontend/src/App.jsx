@@ -13,6 +13,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Chatbot from "./components/Chatbot";
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <Route path='/appointment/:docId' element={<Appointments />} />
     </Routes>
     <Footer/>
+    <Chatbot />
      
     </div>
   );
